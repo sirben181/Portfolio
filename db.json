@@ -1,0 +1,123 @@
+{"Posts":[
+    {"id": "1",
+    "title":"The future of webdevelopment: React vs Angular",
+    "subtitle":"A comprehensive comparison of two popular front-end framework",
+    "content":"In the ever-evolving landscape of web development, two front-end frameworks have emerged as dominant players: React and Angular. Both frameworks offer unique features and capabilities, making them suitable for different types of projects. In this article, we will explore the key differences between React and Angular, helping you make an informed decision for your next web development project.",
+    "author":"John Doe",
+    "date":"2023-05-15",
+    "tags":["React","Angular","Web Development"],
+    "comments":{
+        "count": 5,
+        "commentlist":[
+            {"commentid":"1","commentauthor":"Jane Smith","commentcontent":"Great article! I found the comparison very helpful.","date":"2023-05-16"},
+            {"commentid":"2","commentauthor":"Mike Johnson","commentcontent":"I prefer React for its simplicity and flexibility.","date":"2023-05-17"},
+            {"commentid":"3","commentauthor":"Emily Davis","commentcontent":"Angular's two-way data binding is a game-changer for complex applications.","date":"2023-05-18"},
+            {"commentid":"4","commentauthor":"David Wilson","commentcontent":"I think both frameworks have their strengths and weaknesses. It depends on the project requirements.","date":"2023-05-19"},
+            {"commentid":"5","commentauthor":"Sarah Brown","commentcontent":"Thanks for the insights! This will help me choose the right framework for my next project.","date":"2023-05-20"}]
+                }},
+{"id": "2",
+    "title":"The future of webdevelopment: React vs vue",
+    "subtitle":"A comprehensive comparison of two popular front-end framework",
+    "content":"In the ever-evolving landscape of web development, two front-end frameworks have emerged as dominant players: React and Vue. Both frameworks offer unique features and capabilities, making them suitable for different types of projects. In this article, we will explore the key differences between React and Vue, helping you make an informed decision for your next web development project.",
+    "author":"James Doe",
+    "date":"2023-05-15",
+    "tags":["React","Vue","Web Development"],
+    "comments":{
+        "count": 5,
+        "commentlist":[
+            {"commentid":"1","commentauthor":"Jane Smith","commentcontent":"Great article! I found the comparison very helpful.","date":"2023-05-16"},
+            {"commentid":"2","commentauthor":"Mike Johnson","commentcontent":"I prefer React for its simplicity and flexibility.","date":"2023-05-17"},
+            {"commentid":"3","commentauthor":"Emily Davis","commentcontent":"Vue's reactivity system is very intuitive.","date":"2023-05-18"},
+            {"commentid":"4","commentauthor":"David Wilson","commentcontent":"I think both frameworks have their strengths and weaknesses. It depends on the project requirements.","date":"2023-05-19"},
+            {"commentid":"5","commentauthor":"Sarah Brown","commentcontent":"Thanks for the insights! This will help me choose the right framework for my next project.","date":"2023-05-20"}
+        ]
+    }
+},
+{"id": "3",
+    "title":"The future of webdevelopment: React vs Angular",
+    "subtitle":"A comprehensive comparison of two popular front-end framework",
+    "content":"In the ever-evolving landscape of web development, two front-end frameworks have emerged as dominant players: React and Angular. Both frameworks offer unique features and capabilities, making them suitable for different types of projects. In this article, we will explore the key differences between React and Angular, helping you make an informed decision for your next web development project.",
+    "author":"John Doe",
+    "date":"2023-05-15",
+    "tags":["React","Angular","Web Development"],
+    "comments":{
+        "count": 5,
+        "commentlist":[
+            {"commentid":"1","commentauthor":"Jane Smith","commentcontent":"Great article! I found the comparison very helpful.","date":"2023-05-16"},
+            {"commentid":"2","commentauthor":"Mike Johnson","commentcontent":"I prefer React for its simplicity and flexibility.","date":"2023-05-17"},
+            {"commentid":"3","commentauthor":"Emily Davis","commentcontent":"Angular's two-way data binding is a game-changer for complex applications.","date":"2023-05-18"},
+            {"commentid":"4","commentauthor":"David Wilson","commentcontent":"I think both frameworks have their strengths and weaknesses. It depends on the project requirements.","date":"2023-05-19"},
+            {"commentid":"5","commentauthor":"Sarah Brown","commentcontent":"Thanks for the insights! This will help me choose the right framework for my next project.","date":"2023-05-20"}
+        ]
+    }
+},{"id": "4",
+    "title":"The future of webdevelopment: React vs Angular",
+    "subtitle":"A comprehensive comparison of two popular front-end framework",
+    "content":"In the ever-evolving landscape of web development, two front-end frameworks have emerged as dominant players: React and Angular. Both frameworks offer unique features and capabilities, making them suitable for different types of projects. In this article, we will explore the key differences between React and Angular, helping you make an informed decision for your next web development project.",
+    "author":"John Doe",
+    "date":"2023-05-15",
+    "tags":["React","Angular","Web Development"],
+    "comments":{
+        "count": 5,
+        "commentlist":[
+            {"commentid":"1","commentauthor":"Jane Smith","commentcontent":"Great article! I found the comparison very helpful.","date":"2023-05-16"},
+            {"commentid":"2","commentauthor":"Mike Johnson","commentcontent":"I prefer React for its simplicity and flexibility.","date":"2023-05-17"},
+            {"commentid":"3","commentauthor":"Emily Davis","commentcontent":"Angular's two-way data binding is a game-changer for complex applications.","date":"2023-05-18"},
+            {"commentid":"4","commentauthor":"David Wilson","commentcontent":"I think both frameworks have their strengths and weaknesses. It depends on the project requirements.","date":"2023-05-19"},
+            {"commentid":"5","commentauthor":"Sarah Brown","commentcontent":"Thanks for the insights! This will help me choose the right framework for my next project.","date":"2023-05-20"}
+        ]
+    }
+},{"id": "5",
+    "title":"The future of webdevelopment: React vs Angular",
+    "subtitle":"A comprehensive comparison of two popular front-end framework",
+    "content":"In the ever-evolving landscape of web development, two front-end frameworks have emerged as dominant players: React and Angular. Both frameworks offer unique features and capabilities, making them suitable for different types of projects. In this article, we will explore the key differences between React and Angular, helping you make an informed decision for your next web development project.",
+    "author":"John Doe",
+    "date":"2023-05-15",
+    "tags":["React","Angular","Web Development"],
+    "comments":{
+        "count": 5,
+        "commentlist":[
+            {"commentid":"1","commentauthor":"Jane Smith","commentcontent":"Great article! I found the comparison very helpful.","date":"2023-05-16"},
+            {"commentid":"2","commentauthor":"Mike Johnson","commentcontent":"I prefer React for its simplicity and flexibility.","date":"2023-05-17"},
+            {"commentid":"3","commentauthor":"Emily Davis","commentcontent":"Angular's two-way data binding is a game-changer for complex applications.","date":"2023-05-18"},
+            {"commentid":"4","commentauthor":"David Wilson","commentcontent":"I think both frameworks have their strengths and weaknesses. It depends on the project requirements.","date":"2023-05-19"},
+            {"commentid":"5","commentauthor":"Sarah Brown","commentcontent":"Thanks for the insights! This will help me choose the right framework for my next project.","date":"2023-05-20"}
+        ]
+    }
+},{"id": "",
+    "title":"The future of webdevelopment: React vs Angular",
+    "subtitle":"A comprehensive comparison of two popular front-end framework",
+    "content":"In the ever-evolving landscape of web development, two front-end frameworks have emerged as dominant players: React and Angular. Both frameworks offer unique features and capabilities, making them suitable for different types of projects. In this article, we will explore the key differences between React and Angular, helping you make an informed decision for your next web development project.",
+    "author":"John Doe",
+    "date":"2023-05-15",
+    "tags":["React","Angular","Web Development"],
+    "comments":{
+        "count": 5,
+        "commentlist":[
+            {"commentid":"1","commentauthor":"Jane Smith","commentcontent":"Great article! I found the comparison very helpful.","date":"2023-05-16"},
+            {"commentid":"2","commentauthor":"Mike Johnson","commentcontent":"I prefer React for its simplicity and flexibility.","date":"2023-05-17"},
+            {"commentid":"3","commentauthor":"Emily Davis","commentcontent":"Angular's two-way data binding is a game-changer for complex applications.","date":"2023-05-18"},
+            {"commentid":"4","commentauthor":"David Wilson","commentcontent":"I think both frameworks have their strengths and weaknesses. It depends on the project requirements.","date":"2023-05-19"},
+            {"commentid":"5","commentauthor":"Sarah Brown","commentcontent":"Thanks for the insights! This will help me choose the right framework for my next project.","date":"2023-05-20"}
+        ]
+    }
+},{"id": "7",
+    "title":"The future of webdevelopment: React vs Angular",
+    "subtitle":"A comprehensive comparison of two popular front-end framework",
+    "content":"In the ever-evolving landscape of web development, two front-end frameworks have emerged as dominant players: React and Angular. Both frameworks offer unique features and capabilities, making them suitable for different types of projects. In this article, we will explore the key differences between React and Angular, helping you make an informed decision for your next web development project.",
+    "author":"John Doe",
+    "date":"2023-05-15",
+    "tags":["React","Angular","Web Development"],
+    "comments":{
+        "count": 5,
+        "commentlist":[
+            {"commentid":"1","commentauthor":"Jane Smith","commentcontent":"Great article! I found the comparison very helpful.","date":"2023-05-16"},
+            {"commentid":"2","commentauthor":"Mike Johnson","commentcontent":"I prefer React for its simplicity and flexibility.","date":"2023-05-17"},
+            {"commentid":"3","commentauthor":"Emily Davis","commentcontent":"Angular's two-way data binding is a game-changer for complex applications.","date":"2023-05-18"},
+            {"commentid":"4","commentauthor":"David Wilson","commentcontent":"I think both frameworks have their strengths and weaknesses. It depends on the project requirements.","date":"2023-05-19"},
+            {"commentid":"5","commentauthor":"Sarah Brown","commentcontent":"Thanks for the insights! This will help me choose the right framework for my next project.","date":"2023-05-20"}
+        ]
+    }
+}
+]}
+
