@@ -10,16 +10,16 @@ const Navbar = () => {
     setSidebar(!sidebar)
   }
   return (
-    <div className='container bg-green-550 bg--100'>
-      <div className="navbar">
-          <div className="menu">
+    <div className='container bg-[#33f033] fixed top-0 left-0 z-10 flex flex-col w-full h-[80px]  w-full min-w-screen '>
+      <div className="mx-auto  flex flex-col md:block">
+          <div className="flex  justify-between items-center">
              <div className="menubars">
                <Link to='#' onClick={()=>showSidebar()}>
                  <AiIcons.AiOutlineMenu className='menu-icon'  />
                </Link>
             </div>
-            <div className="navmenu">
-               <ul className="nav-menu-lists">
+            <div className="block">
+               <ul className="block">
                  {SidebarData.map((item,index)=>{
                       return(
                       <li key={index}>
