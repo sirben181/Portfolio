@@ -20,7 +20,7 @@ const Navbar = () => {
                </Link> 
             </div> */}
             <div className="flex justify-center items-center w-full h-full ">
-               <ul className="flex justify-center items-center ">
+               <ul className="flex justify-center items-center w-full h-full ">
                  {SidebarData.map((item,index)=>{
                       return(
                       <li key={index} className="flex justify-center items-center gap-4 px-4 py-2 rounded-lg hover:bg-[#0e8a0e] hover:text-white sm:px-2 sm:py-1 sm:gap-2 sm:mx-3 md:mx-5 md:px-3 md:py-2 md:gap-4 lg:px-6 lg:py-3 lg:gap-6 xl:px-6 xl:py-3 xl:gap-7">
