@@ -1,30 +1,34 @@
-import React from 'react'
+import {useEffect, useState} from 'react'
+import {  useParams } from 'react-router-dom'
+import Blogpost from '../components/blogpost'
+
 
 const Blog = () => {
+  const { id } = useParams();
+const [posts, setPosts] = useState([]);
+  useEffect(() => {
+    const fetchBlog=async()=>{
+      try{
+        const response = await fetch('http://localhost:5000/Posts');
+        const data = await response.json();
+        // console.log('Fetched blog data:', data);
+        setPosts(data);
+      }
+      catch(error){
+        console.error('Error fetching blog:', error);
+      }
+    }
+    fetchBlog();
+  },[])
+    console.log(posts)
+    posts.map((post)=>{
+console.log(post.title)
+
+    })
   return (
     <div className=" container  flex  flex-col max-w-4xl mx-auto px-4 py-8 my-20 h-full "  >
-        <div className=" min-h-screen justify-content-center text-center color-[#000] text-3xl font-bold mb-10 h-100vh w-200vh bg-[F0F0F0] rounded-lg shadow-lg p-10 flex flex-col mx-20">
-          <div className="flex-1">
-            <div className="flex flex-col"> 
-                <h4 className="text-lg font-bold text-[#000]"> THE AMAZING JOB OF JAVASCRIPT UNDER THE HOOD</h4>
-                   <h5 className="text-lg text-[#666]">How the javascript engine works</h5>
-                 <p className="text-sm text-[#666]">By John Doe</p>
-                 <p className='text-sm'>23/5/26</p>
-            </div>
-            <div className="flex-1">
-                <p className="text-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
-                </p>
-            </div>
-            <div className="flex-1">
-                     <button className="bg-[#33f033] text-[#000] px-4 py-2 mx-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">comment </button>
-                      <button className="bg-[#33f033] text-[#000] px-4 py-2 mx-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">like </button>
-            </div>
-
-          
-          </div>
+        <div className=" min-h-screen justify-content-center text-center color-[#000] text-3xl font-bold mb-10 h-100vh w-300vh bg-[F0F0F0] rounded-lg shadow-lg p-10 flex flex-col mx-20">
+       <Blogpost />
         </div>
       </div>
   )
