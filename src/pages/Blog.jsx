@@ -5,12 +5,16 @@ const Blog = () => {
     <div className=" container  flex  flex-col max-w-4xl mx-auto px-4 py-8 my-20 h-full "  >
         <div className=" min-h-screen justify-content-center text-center color-[#000] text-3xl font-bold mb-10 h-100vh w-200vh bg-[F0F0F0] rounded-lg shadow-lg p-10 flex flex-col mx-20">
           <div className="flex-1">
-            <div className=""> 
-                <h2> THE AMAZING JOB OF JAVASCRIPT UNDER THE HOOD</h2>
-                 <p className="">By John Doe</p>
+            <div className="flex flex-col"> 
+                <h4 className="text-lg font-bold text-[#000]"> THE AMAZING JOB OF JAVASCRIPT UNDER THE HOOD</h4>
+                   <h5 className="text-lg text-[#666]">How the javascript engine works</h5>
+                 <p className="text-sm text-[#666]">By John Doe</p>
+                 <p className='text-sm'>23/5/26</p>
             </div>
             <div className="flex-1">
-                <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p className="text-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
                 </p>
             </div>
