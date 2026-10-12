@@ -21,7 +21,7 @@ const [posts, setPosts] = useState([]);
     // console.log(posts)
 
          posts.map((post)=>{
-// console.log(post.title)
+console.log(post.title)
 
     })
 
@@ -30,10 +30,10 @@ const [posts, setPosts] = useState([]);
     <div>
          <div className="flex-1">
             <div className="flex flex-col"> 
-                <h4 className="text-lg font-bold text-[#000]">{post.title}</h4>
+                <h4 className="text-lg font-bold text-[#000]">{}</h4>
                    <h5 className="text-lg text-[#666]">How the javascript engine works</h5>
                  <p className="text-sm text-[#666]">By John Doe</p>
-                 <p className='text-sm'>{post.date}</p>
+                 <p className='text-sm'>{}</p>
             </div>
             <div className="flex-1">
                 <p className="text-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -43,7 +43,7 @@ const [posts, setPosts] = useState([]);
                 </p>
             </div>
             <div className="flex-1">
-                     <button className="bg-[#33f033] text-[#000] px-4 py-2 mx-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">comment </button>
+                     <button className="bg-[#33f033] text-[#000] px-4 py-2 mx-4  my-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">comment </button>
                       <button className="bg-[#33f033] text-[#000] px-4 py-2 mx-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">like </button>
             </div>
 
