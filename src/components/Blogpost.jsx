@@ -19,18 +19,21 @@ const [posts, setPosts] = useState([]);
     fetchBlog();
   },[])
     // console.log(posts)
-    posts.map((post)=>{
-console.log(post.title)
+
+         posts.map((post)=>{
+// console.log(post.title)
 
     })
+
   return (
+
     <div>
          <div className="flex-1">
             <div className="flex flex-col"> 
                 <h4 className="text-lg font-bold text-[#000]">{post.title}</h4>
                    <h5 className="text-lg text-[#666]">How the javascript engine works</h5>
                  <p className="text-sm text-[#666]">By John Doe</p>
-                 <p className='text-sm'>23/5/26</p>
+                 <p className='text-sm'>{post.date}</p>
             </div>
             <div className="flex-1">
                 <p className="text-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
