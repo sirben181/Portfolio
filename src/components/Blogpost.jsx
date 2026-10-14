@@ -35,7 +35,8 @@ const blogpost = ({post}) => {
                  <p className="text-sm text-[#666]">{post.authors}</p>
                  <p className='text-sm'>{post.date}</p>
             </div>
-            <div className="flex-1 px-3">
+            <div className="flex-1 px-3 mx-4
+            ">
                 <p className="text-lg ">{post.content}</p>
              
             </div>
