@@ -40,8 +40,8 @@ const blogpost = ({post}) => {
                 <p className="text-lg ">{post.content}</p>
              
             </div>
-            <div className="flex-1">
-                     <button className="bg-[#33f033] text-[#000] px-4 py-2 mx-4  my-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">comment </button>
+            <div className="flex-1 flex-end justify-end px-3 mx-4 my-4">
+                     <button className="bg-[#33f033] text-lg text-[#000] px-4 py-2 mx-4  my-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">comment </button>
                       <button className="bg-[#33f033] text-[#000] px-4 py-2 mx-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">like </button>
             </div>
 
