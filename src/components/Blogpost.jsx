@@ -28,7 +28,7 @@ const blogpost = ({post}) => {
   return (
 
     <div>
-         <div className="flex-1 bg-[#F0F0F0]  px-4 py-2 mx-4 my-4 rounded-lg shadow-lg">
+         <div className="flex-1 px-4 py-2 mx-4 my-4 rounded-lg shadow-lg">
             <div className="flex flex-col">
               <span className="text-[#000]"> - {post.category}</span>
                 <h4 className="text-sm font-bold text-[#000]">{post.title}</h4><span className="text-xs text-[#666]">{post.date}</span>
