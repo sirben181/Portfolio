@@ -28,24 +28,17 @@ const blogpost = ({post}) => {
   return (
 
     <div>
-         <div className="flex-1 bg-[#F0F0F0] text-[#000] px-4 py-2 mx-4 my-4 rounded-lg shadow-lg">
+         <div className="flex-1 bg-[#F0F0F0]  px-4 py-2 mx-4 my-4 rounded-lg shadow-lg">
             <div className="flex flex-col">
-                <h4 className="text-lg font-bold text-[#000]">{post.title}</h4>
-                   <h5 className="text-lg text-[#666]">{post.subtitle}</h5>
-                 <p className="text-sm text-[#666]">{post.authors}</p>
-                 <p className='text-sm'>{post.date}</p>
+              <span className="text-[#000]"> - {post.category}</span>
+                <h4 className="text-sm font-bold text-[#000]">{post.title}</h4><span className="text-xs text-[#666]">{post.date}</span>
+                   <h5 className="text-xs text-[#666]">{post.subtitle}</h5><span className="text-xs text-[#666]">by{post.author}</span>
             </div>
-            <div className="flex-1 px-3 mx-4
-            ">
-                <p className="text-lg ">{post.content}</p>
+            <div className="flex-1 px-3 mx-4">
+              <image src={post.image} alt="blog" className="w-full h-64 object-cover rounded-lg mb-4" />
+                <p className="text-xs ">{post.content}</p>
              
             </div>
-            <div className="flex-1 flex-end justify-end px-3 mx-4 my-4">
-                     <button className="bg-[#33f033] text-lg text-[#000] px-4 py-2 mx-4  my-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">comment </button>
-                      <button className="bg-[#33f033] text-[#000] px-4 py-2 mx-4 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">like </button>
-            </div>
-
-          
           </div>
           </div>
   )

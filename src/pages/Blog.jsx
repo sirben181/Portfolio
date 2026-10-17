@@ -13,6 +13,7 @@ const [posts, setPosts] = useState([]);
         const data = await response.json();
         // console.log('Fetched blog data:', data);
         setPosts(data);
+        // console.log(data)
       }
       catch(error){
         console.error('Error fetching blog:', error);
