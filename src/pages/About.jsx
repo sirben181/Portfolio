@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { FaFacebook,FaGithub,FaTwitter,FaLinkedin,FaYoutube,FaPhone} from 'react-icons/fa'
+import {} from 'react-icons/fa'
 
 const About = () => {
   return (
@@ -73,12 +76,16 @@ const About = () => {
                   <div className="container flex  justify-center items-center px-10 py-10 mx-10">
                     <div className="flex flex-col justify-center items-center">
                           <p className="text-lg text-[#000]  ">Contact Information</p>
-                          <p className="text-lg text-[#000]">Email: info@company.com</p>
-                          <p className="text-lg text-[#000]">Phone: +1 (123) 456-7890</p>
+                         <Link to='mailto:info@company.com' className="text-lg text-[#000]">Email: info@company.com</Link>
+                         <Link to='https://facebook.com' className="flex text-lg text-[#000]">Facebook: <FaFacebook className="" /></Link>
+                         <Link to='https://github.com/sirben181' className="flex text-lg text-[#000]">Github: <FaGithub className="" /></Link>
+                         <Link to='https://linkedin.com' className="flex text-lg text-[#000]">LinkedIn: <FaLinkedin className="" /></Link>
+                          <Link to='https://x.com' className="flex text-lg text-[#000]">Twitter: <FaTwitter className="" /></Link>
+                          <Link to='https://youtube.com' className="flex text-lg text-[#000]">Youtube: <FaYoutube className="" /></Link>
+                          <p className="flex text-lg text-[#000]">Phone: <FaPhone className="" /> +1 (123) 456-7890</p>
                     </div>
                     <div className="flex text-lg gap-4 justify-center items-centerpx-10 py-10 mx-10 mt-4">
-                      <button className="bg-[#33f033] text-[#000] px-4 py-2 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">LOGIN </button>
-                      <button className="bg-[#33f033] text-[#000] px-4 py-2 rounded-lg shadow-lg hover:bg-[#0e8a0e] hover:text-white transition duration-300">REGISTER </button>
+                      
                     </div>
                   </div>
               </div>
