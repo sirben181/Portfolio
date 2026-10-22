@@ -50,7 +50,7 @@ const Profile = () => {
 
                     </div>
                 </div>
-                <p className='hitmeup'> <Link rel="noreferrer" to='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQHcsRdSRmXtNpZgQQPKCTBtvnXJkXvpjqtDxXtKggNrlrpwsQvNVVTbbCqXdMdSfqFxl' target='_blank'>Hire</Link></p>
+                <p className='hitmeup'> <Link className='text-[#fff] text-bold hover:text-blue' rel="noreferrer" to='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQHcsRdSRmXtNpZgQQPKCTBtvnXJkXvpjqtDxXtKggNrlrpwsQvNVVTbbCqXdMdSfqFxl' target='_blank'>Hire</Link></p>
 
             </div>
         </div>
