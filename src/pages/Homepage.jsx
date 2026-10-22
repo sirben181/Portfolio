@@ -9,7 +9,7 @@ const Homepage = () => {
           <div className="flex flex-col h-full w-full">
               <img src={bgImage} alt=" home image not available" className="mx-auto h-full w-full object-cover rounded" />
           </div>
-          <div className=""><Profile/></div>
+          <div className="my-10 h-full width-full"><Profile/></div>
           <div className="">projects</div>
           <div className="">A glimpse of the blog</div>
           <div className=""> glimpse of About</div>

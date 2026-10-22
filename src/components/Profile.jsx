@@ -1,21 +1,27 @@
-import Avatar from '@mui/material/Avatar'
+// import Avatar from '@mui/material/Avatar'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import prof from '../images/bens.webp'
+import prof from '../assets/images/bens.webp'
+// import { FontAwesomeIcon } from 'react-icons/fa'
 const Profile = () => {
   return (
-    <div className=''>
+    <div className='bg-[#C7BFF5] rounded-lg shadow-lg p-10 flex flex-col mx-20 text-xl widht-full'>
         <div className="">
             <div className="">
-                <div className="">
-                    <Avatar style={{height:'100px', width:'100px', marginRight:'30px'}} src={prof}/>
-                    <span><h3>Benson kamau</h3> <span className='dash'> - </span> <p>Software developer</p> </span> 
+                <div className="flex flex-row items-center justify-center">
+                    {/* <FontAwesomeIcon  src={prof}/> */}
+                    {/* <i style={{height:'100px', width:'100px', marginRight:'30px'}} src={prof}/> */}
+                    <span className="flex  items-center">
+                        <h3 className='text-white font-bold'>Benson kamau</h3>
+                        <span className=''> - </span>
+                        <p>Software developer</p>
+                    </span>
                 </div>
-                <div className="profile-story">
-                    <div className='title'>
+                <div className="">
+                    <div className=''>
                         <h3>who is ben?</h3>
                     </div>
-                    <div className="profile-body">
+                    <div className="">
                        <p>
                         i started coding in the covid era june of 2021.Having worked in the constructio industry for <br />
                          some times after graduating from college having a bachelor degree in biochemistry. <br />
@@ -29,7 +35,7 @@ const Profile = () => {
                         
                         </p> 
                         </div>
-                        <div className='skills-container'>
+                        <div className=''>
                             <h3>Technologies and skills</h3>
                             <div className='skills'>
                                 <ul>
