@@ -1,6 +1,9 @@
 import React from 'react'
 import bgImage from '../assets/images/bg-pic.jpg'
 import Profile from '../components/Profile'
+import Projects from './Projects'
+import Blog from './Blog'
+import About from './About'
 
 const Homepage = () => {
   return (
@@ -9,10 +12,10 @@ const Homepage = () => {
           <div className="flex flex-col h-full w-full">
               <img src={bgImage} alt=" home image not available" className="mx-auto h-full w-full object-cover rounded" />
           </div>
-          <div className="my-10 h-full width-full"><Profile/></div>
-          <div className="">projects</div>
-          <div className="">A glimpse of the blog</div>
-          <div className=""> glimpse of About</div>
+          <Profile/>
+          <Projects/>
+          <Blog/>
+         <About/>
           
         </div>
       </div>
