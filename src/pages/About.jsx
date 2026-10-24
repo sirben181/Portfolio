@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaFacebook,FaGithub,FaTwitter,FaLinkedin,FaYoutube,FaPhone} from 'react-icons/fa'
 import {} from 'react-icons/fa'
+import Profile from '../components/Profile'
 
 const About = () => {
   return (
@@ -41,6 +42,8 @@ const About = () => {
                   </div>
               </div>
          </div>
+         {/* our journey */}
+         <Profile/>
                 {/* our mission */}
                     <div className="container  flex  flex-col max-w-4xl mx-20px px-4 py-8 my-10 h-full border-t">
                 <div className="color-[#000] text-3xl font-bold mb-10  bg-[F0F0F0] rounded-lg shadow-lg p-10 flex flex-col">

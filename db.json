@@ -69,5 +69,55 @@
     "tags":["React","Angular","Web Development"]
     
 }
+],
+"Services":[
+    {
+        "id" : "1",
+        "name":"Web Development",
+        "description":"We offer professional web development services to help you build a strong online presence. Our team of experienced developers can create custom websites, web applications, and e-commerce solutions tailored to your business needs.",
+        "price":"$1000 - $5000",
+        "duration":"2-6 weeks"
+    },
+    {
+        "id" : "2",
+        "name":"Mobile App Development",
+        "description":"We provide mobile app development services for iOS and Android platforms. Our team can design and develop user-friendly mobile applications that meet your business requirements and enhance user engagement.",
+        "price":"$2000 - $10000",
+        "duration":"4-12 weeks"
+    },
+    {
+        "id" : "3",
+        "name":"UI/UX Design",
+        "description":"Our UI/UX design services focus on creating intuitive and visually appealing interfaces for your digital products. We conduct user research, wireframing, and prototyping to ensure a seamless user experience.",
+        "price":"$500 - $3000",
+        "duration":"1-4 weeks"
+    },
+    {
+        "id" : "4",
+        "name":"Digital Marketing",
+        "description":"We offer digital marketing services to help you reach your target audience and grow your online presence. Our services include SEO, social media marketing, email marketing, and content marketing strategies.",
+        "price":"$500 - $5000",
+        "duration":"1-8 weeks"
+    },
+    {
+        "id" : "5",
+        "name":"Cloud Services",
+        "description":"We provide cloud services to help you migrate, manage, and optimize your applications and data in the cloud. Our team can assist with cloud strategy, deployment, and ongoing support.",
+        "price":"$1000 - $10000",
+        "duration":"2-8 weeks"
+    },
+    {
+        "id" : "6",
+        "name":"IT Consulting",
+        "description":"Our IT consulting services help businesses leverage technology to achieve their goals. We provide strategic guidance, technology assessments, and implementation support to optimize your IT infrastructure.",
+        "price":"$100 - $500 per hour",
+        "duration":"Varies based on project"
+    },{
+        "id" : "7",
+        "name":"Cybersecurity Services",  
+        "description":"We offer comprehensive cybersecurity services to protect your business from evolving threats. Our team provides risk assessment, security auditing, incident response, and compliance consulting to ensure your data and systems remain secure.",
+        "price":"$1000 - $10000",
+        "duration":"1-4 weeks"
+    }
 ]}
 

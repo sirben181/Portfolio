@@ -2,7 +2,6 @@ import React from 'react'
 import bgImage from '../assets/images/bg-pic.jpg'
 import Profile from '../components/Profile'
 import Projects from './Projects'
-import Blog from './Blog'
 import About from './About'
 
 const Homepage = ({post}) => {
@@ -12,10 +11,6 @@ const Homepage = ({post}) => {
           <div className="flex flex-col h-full w-full">
               <img src={bgImage} alt=" home image not available" className="mx-auto h-full w-full object-cover rounded" />
           </div>
-          <Profile/>
-          <Projects/>
-          <Blog/>
-         <About/>
           
         </div>
       </div>

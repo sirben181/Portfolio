@@ -5,6 +5,7 @@ import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
 import Blog from './pages/Blog'
 import About from './pages/About'
+import Services  from './pages/Services'
 const App = () => {
   const routes=createRoutesFromElements(
 
@@ -14,6 +15,7 @@ const App = () => {
     <Route path='/projects' element={<Projects />} />
     <Route path='/blog' element={<Blog />} />
     <Route path='/about' element={<About />} />
+    <Route path='/services' element={<Services />} />
     </Route>
     </>
   )

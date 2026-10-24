@@ -3,6 +3,7 @@ import * as FaIcons from 'react-icons/fa'
 import * as GiIcons from 'react-icons/gi'
 import * as MdIcons from 'react-icons/md'
 import * as FcIcons from 'react-icons/fc'
+import { FaServicestack } from "react-icons/fa";
 export const SidebarData = [
   {
     title:'Home',
@@ -28,6 +29,12 @@ export const SidebarData = [
     cName:'nav-text',
     icon:<FcIcons.FcAbout />,
   },
+  {
+    title:'Services',
+    path:'/services',
+    cName:'nav-text',
+    icon:<FaServicestack />,
+  }
  
   
 ]
