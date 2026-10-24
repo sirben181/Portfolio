@@ -5,7 +5,7 @@ import prof from '../assets/images/bens.webp'
 // import { FontAwesomeIcon } from 'react-icons/fa'
 const Profile = () => {
   return (
-    <div className='bg-[#C7BFF5] rounded-lg shadow-lg p-10 flex flex-col mx-20 text-xl widht-full'>
+    <div className='bg-[#C7BFF5] rounded-lg shadow-lg p-10 flex flex-col my-20 mx-20 text-xl widht-full'>
         <div className="">
             <div className="">
                 <div className="flex flex-row items-center justify-center">
