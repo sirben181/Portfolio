@@ -6,6 +6,7 @@ import Projects from './pages/Projects'
 import Blog from './pages/Blog'
 import About from './pages/About'
 import Services  from './pages/Services'
+import Contacts  from './pages/Contacts'
 const App = () => {
   const routes=createRoutesFromElements(
 
