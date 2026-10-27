@@ -1,7 +1,24 @@
-import React from 'react'
+import {useState, useEffect}from 'react'
 import { Link } from 'react-router-dom'
 
-const Services = () => {
+const Services = ({isHome=false}) => {
+const [services, setServices]=useState([])
+useEffect(()=>{
+
+    const fetchService=async()=>{
+        const ApiUrl= isHome ? 'http://localhost:5000/services_limit=3' : 'http://localhost:5000/services'
+        try {
+            const res=await fetch(ApiUrl)
+            const data=await res.json()
+            setServices(data)
+            console.log(services)
+        } catch (error) {
+           console.log('Error fetching jobs :', error) 
+        }
+        
+    }
+    fetchService()
+},[])
   return (
     <div className=" container  text-lg min-h-screen width-full mx-auto px-4 my-5 py-10  justify-content-center" >
         <div classNames="text-center mb-8 py-10 my-10">
