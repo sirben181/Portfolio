@@ -1,16 +1,15 @@
 import React from 'react'
 import { useLoaderData,Link,useParams } from 'react-router-dom'
 
-const Service = () => {
-    const service=useLoaderData()
-    const {id}=useParams()
+const Service = ({service}) => {
+    
     // console.log(service)
   return (
     <div>    
         <div className="bg-white rounded-lg shadow-lg p-6  border-t border-gray-300">
-                <h2 className="text-xl font-bold mb-4">{}</h2>
-                <p className="text-gray-600">{}</p>
-        <Link to="/services/web-development/1" className="text-blue-500 hover:text-[#33f033] mt-4 block">Read more...</Link>
+                <h2 className="text-xl font-bold mb-4">{service.title}</h2>
+                <p className="text-gray-600">{service.description}</p>
+        <Link to={`/services/:${service.id}`} className="text-blue-500 hover:text-[#33f033] mt-4 block">Read more...</Link>
         </div>
                     {/* <div className="bg-white rounded-lg shadow-lg p-6  border-t border-gray-300">
                         <h2 className="text-xl font-bold mb-4">Data analysis</h2>
@@ -44,11 +43,6 @@ const Service = () => {
         
   )
 }
-const serviceLoader= async({params})=>{
-const res=await fetch(`http://localhost:5000/services/${params.id}`)
-const data=await res.json()
-console.log('loader is running')
-return data
-}
 
-export { Service as default,serviceLoader}
+
+export   default Service
