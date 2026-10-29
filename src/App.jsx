@@ -5,7 +5,8 @@ import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
 import Blog from './pages/Blog'
 import About from './pages/About'
-import Services  from './pages/Services'
+import Service, {serviceLoader}  from './components/Service'
+import Services from './pages/Services'
 import Contacts  from './pages/Contacts'
 const App = () => {
   const routes=createRoutesFromElements(
@@ -17,6 +18,7 @@ const App = () => {
     <Route path='/blog' element={<Blog />} />
     <Route path='/about' element={<About />} />
     <Route path='/services' element={<Services />} />
+    <Route path='/services/:id' element={<Service /> } loader={serviceLoader}/>
     <Route path='/contacts' element={<Contacts />} />
     </Route>
     </>

@@ -1,4 +1,5 @@
 import {useState, useEffect}from 'react'
+import {Link} from  'react-router-dom'
 import Service from '../components/Service'
 
 const Services = ({isHome=false}) => {
@@ -10,9 +11,9 @@ useEffect(()=>{
         try {
             const res=await fetch(ApiUrl)
             const data=await res.json()
-            console.log(data)
+            // console.log(data)
             setServices(data)
-            console.log(services)
+            // console.log(services)
         } catch (error) {
            console.log('Error fetching jobs :', error) 
         }
@@ -25,7 +26,8 @@ useEffect(()=>{
      <div className="text-center mb-8 py-10 my-10">
                     <h1 className="text-3xl font-bold my-4 py-5">Our Services</h1>
                     <p className="text-gray-600">We offer a wide range of services to help you achieve your business goals.</p>
-    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8"></div>
+    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+
     {
         isHome && services.length >3 ? (services.slice(0,3).map((service)=>(
             <Service key={service.id} service={service}/>
@@ -33,6 +35,12 @@ useEffect(()=>{
               <Service  key={service.id} service={service}/>  
             ))
     }
+    </div>
+     <div className="text-center mt-4 border-t border-gray-300 rounded-lg shadow-lg pt-4">
+                    <h3>Have a project in mind?</h3>
+                <p className="text-gray-600">Contact us today to discuss your project and how we can help you achieve your goals.</p>
+                <Link to="/contacts" className="text-blue-500 hover:text-[#33f033] my-4 block pb-10 ">Contact us</Link>
+                 </div>
     </div>
     </div>
    
