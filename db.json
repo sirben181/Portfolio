@@ -73,32 +73,32 @@
 "services":[
     {
         "id" : "1",
-        "name":"Websites & Digital Presence",
+        "title":"Websites & Digital Presence",
         "description":"Web development, WordPress websites, landing pages and website improvements"
     },
     {
         "id" : "2",
-        "name":"Data analysis",
+        "title":"Data analysis",
         "description":"We analyze data to provide insights and support decision-making"
     },
     {
         "id" : "3",
-        "name":"Web support and Maintenance",
+        "title":"Web support and Maintenance",
         "description":"We provide ongoing support and maintenance for your websites to ensure they perform at their best."
     },
     {
         "id" : "4",
-        "name":"Digital Marketing & Advertising",
+        "title":"Digital Marketing & Advertising",
         "description":"Google Ads, Meta Ads, campaign reporting and conversion-focused landing pages."
     },
     {
         "id" : "5",
-        "name":"AI optimization",
+        "title":"AI optimization",
         "description":"We leverage AI technologies to optimize your digital presence and improve performance."
     },
     {
         "id" : "6",
-        "name":"Productivity & Technical Content",
+        "title":"Productivity & Technical Content",
         "description":"Google Workspace and Spaces, technical writing, user guides and business process documentation."
        
     }
