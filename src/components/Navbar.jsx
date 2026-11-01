@@ -5,11 +5,12 @@ import * as AiIcons from 'react-icons/ai'
 import {SidebarData} from '../components/Sidebar'
 
 const Navbar = () => {
-  const[sidebar,setSidebar]=useState(false)
-  const showSidebar=()=>{
-    setSidebar(!sidebar)
-    console.log('menubar clicked')
-  }
+  // const[sidebar,setSidebar]=useState(false)
+  // const showSidebar=()=>{
+  //   setSidebar(!sidebar)
+  //   console.log('menubar clicked')
+  // }
+   const linkClass=({isActive})=>isActive ? 'bg-black text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2' :'text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'
   return (
     <div className='container bg-[#33f033]  fixed top-0 left-0 z-10 flex flex-col w-full h-[100px]  w-full min-w-screen text-sm md:text-lg lg:text-xl xl:text-2xl  '>
       <div className="flex justify-center items-center w-full h-full">
@@ -23,8 +24,8 @@ const Navbar = () => {
                <ul className="flex justify-center items-center w-full h-full ">
                  {SidebarData.map((item,index)=>{
                       return(
-                      <li key={index} className="flex justify-center items-center gap-4 px-4 py-2 rounded-lg hover:bg-[#0e8a0e] hover:text-white sm:px-2 sm:py-1 sm:gap-2 sm:mx-3 md:mx-5 md:px-3 md:py-2 md:gap-4 lg:px-6 lg:py-3 lg:gap-6 xl:px-6 xl:py-3 xl:gap-7">
-                          <Link to={item.path}> {item.icon} <span>{item.title}</span></Link>
+                      <li key={index} className=' flex justify-center items-center gap-4 px-4 py-2 rounded-lg hover:bg-[#0e8a0e] hover:text-white sm:px-2 sm:py-1 sm:gap-2 sm:mx-3 md:mx-5 md:px-3 md:py-2 md:gap-4 lg:px-6 lg:py-3 lg:gap-6 xl:px-6 xl:py-3 xl:gap-7'>
+                          <Link to={item.path} className={linkClass}> {item.icon} <span>{item.title}</span></Link>
                       </li>
                       )
                       })
