@@ -9,7 +9,7 @@ const Service = ({service}) => {
         <div className="bg-white rounded-lg shadow-lg p-6  border-t border-gray-300">
                 <h2 className="text-xl font-bold mb-4">{service.title}</h2>
                 <p className="text-gray-600">{service.description}</p>
-        <Link to={`/services/:${service.id}`} className="text-blue-500 hover:text-[#33f033] mt-4 block">Read more...</Link>
+        <Link to={`/services/${service.id}`} className="text-blue-500 hover:text-[#33f033] mt-4 block">Read more...</Link>
         </div>
                     {/* <div className="bg-white rounded-lg shadow-lg p-6  border-t border-gray-300">
                         <h2 className="text-xl font-bold mb-4">Data analysis</h2>

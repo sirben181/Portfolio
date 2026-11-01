@@ -15,8 +15,9 @@ const Servicepage = () => {
 }
 const serviceLoader= async({params})=>{
 const res=await fetch(`http://localhost:5000/services/${params.id}`)
+console.log(res)
 const data=await res.json()
-console.log('loader is running',data)
 return data
+console.log('loader is running',data)
 }
 export {Servicepage as default,serviceLoader}
