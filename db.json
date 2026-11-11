@@ -74,32 +74,38 @@
     {
         "id" : "1",
         "title":"Websites & Digital Presence",
-        "description":"Web development, WordPress websites, landing pages and website improvements"
+        "description":"Web development, WordPress websites, landing pages and website improvements",
+        "body":"Web development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvements"
     },
     {
         "id" : "2",
         "title":"Data analysis",
-        "description":"We analyze data to provide insights and support decision-making"
+        "description":"We analyze data to provide insights and support decision-making",
+        "body":"Web development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvements"
     },
     {
         "id" : "3",
         "title":"Web support and Maintenance",
-        "description":"We provide ongoing support and maintenance for your websites to ensure they perform at their best."
-    },
+        "description":"We provide ongoing support and maintenance for your websites to ensure they perform at their best.",
+          "body":"Web development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvements"
+     },
     {
         "id" : "4",
         "title":"Digital Marketing & Advertising",
-        "description":"Google Ads, Meta Ads, campaign reporting and conversion-focused landing pages."
+        "description":"Google Ads, Meta Ads, campaign reporting and conversion-focused landing pages.",
+        "body":"Web development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvements"
     },
     {
         "id" : "5",
         "title":"AI optimization",
-        "description":"We leverage AI technologies to optimize your digital presence and improve performance."
+        "description":"We leverage AI technologies to optimize your digital presence and improve performance.",
+        "body":"Web development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvements"
     },
     {
         "id" : "6",
         "title":"Productivity & Technical Content",
-        "description":"Google Workspace and Spaces, technical writing, user guides and business process documentation."
+        "description":"Google Workspace and Spaces, technical writing, user guides and business process documentation.",
+        "body":"Web development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvementsWeb development, WordPress websites, landing pages and website improvements"
        
     }
 ]}
